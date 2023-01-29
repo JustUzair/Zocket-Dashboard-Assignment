@@ -1,0 +1,10 @@
+.top-bar--container {
+  display: flex;
+
+  justify-content: flex-end;
+  height: 80px;
+  align-items: center;
+  background-color: #ffffff;
+
+  /* margin-bottom: 300px; */
+}
