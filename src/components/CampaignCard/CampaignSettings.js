@@ -71,7 +71,7 @@ const MultiStepSettingsBar = () => {
 
 
 */
-const CampaignSettings = () => {
+const CampaignSettings = ({ progress, setProgress }) => {
   const [budgetValue, setBudgetValue] = useState(1);
   const [locationRadius, setLocationRadius] = useState(1);
   return (
@@ -414,6 +414,9 @@ const CampaignSettings = () => {
           style={{ float: "right" }}
           type="button"
           className="btn btn-primary"
+          onClick={e => {
+            setProgress(4);
+          }}
         >
           Continue
         </button>
