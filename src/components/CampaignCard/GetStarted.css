@@ -1,3 +1,8 @@
+/*
+This css file is also used by ChooseProduct, ReadyToGo, and GetStarted Components, 
+since they share the same CSS
+*/
+
 .getting-started--container,
 .choose-product--container {
   padding: 10px 100px;
